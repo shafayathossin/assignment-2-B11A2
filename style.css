@@ -1,0 +1,456 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+.quicksand-regular {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.raleway-secendary {
+    font-family: "Raleway", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+  .display-flexible{
+    display: flex;
+    align-items: center;
+}
+
+.primary-color{
+    color: #FEA301;
+}
+
+.secondary-color{
+    color: #01ACFD;
+}
+
+.description{
+    color: #808080;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.nav-btn{
+    background-color: #FEA301;
+    color: #fff;
+    padding: 10px 60px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 1.25rem;
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+
+
+.section-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 auto 80px auto;
+    padding-top: 10px;
+}
+
+.slide-btn{
+    color: white;
+    height: 60px;
+    width: 60px;
+    background-color: #FEA301;
+    border-radius: 50%;
+    border: 0;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.slide-btn:hover{
+    background-color: #fe5e01;
+}
+
+
+
+/* --------------navbar styles start------------- */
+.navbar{
+    max-width: 1160px;
+    margin: 20px auto 0 auto;
+    justify-content: space-between;
+}
+
+.brand-logo{
+    width: 100%;
+    height: 100%;
+}
+
+.brand-name{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.nav-menu li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 32px;
+}
+  
+.nav-menu li a{
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.nav-menu li a:hover{
+    color: #111;
+}
+
+
+#home{
+    font-weight: 700;
+}
+
+#about{
+    color: #05D4DF;
+}
+
+#facilities{
+    color: #05D4DF;
+}
+
+#admission{
+    color: #5D58EF;
+}
+
+.bar-icon{
+    display: none;
+    font-size: 1.5rem;
+
+}
+
+hr{
+    display: none;
+}
+
+.main-section{
+    max-width: 1160px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.main-content{
+    max-width: 640px;
+}
+
+.main-title{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.main-text{
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin: 24px 0;
+}
+
+.enroll-btn{
+    padding: 10px 47px;
+    background-color: #111;
+}
+
+.main-image img{
+    width: 100%;
+    height: auto;
+}
+
+.curriculum{
+    max-width: 1160px;
+    margin: 0 auto;
+    background-image: url(assets/bg.png);
+}
+
+.curriculum-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    gap: 28px;
+    margin: 80px auto;
+}
+
+.curriculum-container h4{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 33px auto;
+}
+
+.curriculum-item{
+    padding: 52px 40px;
+    border-radius: 19px;
+    background-color: white;
+}
+
+.kinder{
+    background-image: linear-gradient(rgba(222, 245, 255, 1), rgba(255, 255, 255, 0));
+    border: 1px solid #DEF5FF;
+}
+
+.readmore-1{
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #94c8ff;
+    margin-top: 33px;
+}
+
+.elementary{
+    background-image: linear-gradient(rgba(255, 244, 220, 1), rgba(255, 255, 255, 0));
+    border: 1px solid #FFF4DC;
+}
+
+.readmore-2{
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #F0AA00;
+    margin-top: 33px;
+}
+
+.middle{
+    background-image: linear-gradient(rgba(238, 225, 255, 1), rgba(255, 255, 255, 0));
+    border: 1px solid #F2E8FF;
+}
+
+.readmore-3{
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #8700FF;
+    margin-top: 33px;
+}
+
+.slider-btn{
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.our-stories{
+    background: url(assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+}
+
+.story img{
+    width: 100%;
+    border-radius: 16px 16px 0 0;
+}
+
+.Story-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 19px;
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.story{
+    border-radius: 16px;
+    background-color: #fff;
+}
+
+.story h5{
+    display: inline-block;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #fff;
+    background-color: rgb(149, 178, 38);
+    border-radius: 48px;
+    padding: 15px 19px;
+    position: relative;
+    left: 30px;
+    top:-30px;
+}
+
+.story h4{
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin: 23px 38px 33px 38px;
+}
+
+#box-1{
+    grid-row: span 2;
+    grid-column: span 2;
+}
+
+#box-1 h4{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 60px 38px 51px 38px;
+}
+
+#box-1 p{
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin: 40px 38px 34px 38px;
+}
+
+#box-1 h5{
+    display: inline-block;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #fff;
+    background-color: #3CD8E8;
+    border-radius: 48px;
+    padding: 15px 19px;
+    position: relative;
+    left: 30px;
+    top:-30px;
+}
+
+#box-3 h5{
+    background-color: rgb(93, 88, 240);
+}
+
+.stories-btn{
+    text-align: center;
+}
+
+.view-all{
+    background-color: #111;
+    margin: 80px 0 60px 0;
+}
+
+
+.footer{
+    background-color: #01ACFD;
+}
+
+.footer-container{
+    justify-content: space-between;
+    align-items: start;
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 123px 0 174px 0;
+    color: #fff;
+}
+
+.kids-education{
+    max-width: 400px;
+}
+
+.logo-brand{
+    margin-bottom: 35px;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.logo-brand h2{
+    font-size: 2.6rem;
+    font-weight: 700;
+    line-height: 39.51px;
+}
+
+.kids-education p{
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.about-school h4{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+
+.about-school li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.about-school li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.keep-in-touch h3{
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+
+.icons{
+    gap: 10px;
+    margin-right: 30px;
+}
+
+
+
+@media screen and (max-width:576px){
+    header,
+    .curriculum,
+    .footer-container,
+    .Story-container{
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+
+    .brand-name,
+    .nav-menu,
+    .contact-btn,
+    .slider-btn,
+    #box-1{
+        display: none;
+    }
+
+    .bar-icon{
+        display: block;
+    }
+
+
+    hr{
+        display: block;
+        border: 1px solid #FEA301;
+    }
+
+    .main-section{
+        flex-direction: column-reverse;
+    }
+
+    .main-content{
+        text-align: center;
+    }
+
+    .curriculum-container{
+        grid-template-columns: 1fr;
+    }
+
+    .Story-container{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3%;
+        margin: 0 16px;
+    }
+
+    .story h5{
+        left: 10px;
+        font-size: 0.7rem;
+    }
+
+    .story h4{
+        margin: 5px 22px 30px 22px;
+    }
+
+    .footer-container{
+        flex-direction: column;
+    }
+
+    .about-school{
+        margin-top: 30px;
+    }
+
+    .keep-in-touch{
+        margin-top: 31px;
+    }
+}
